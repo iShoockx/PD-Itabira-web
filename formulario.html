@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de satisfaçao</title>
+    </head>
+    <body>
+        <form method="post" action="processo-pesquisa.html">
+            <h1>Pesquisa de satisfaçao</h1>
+            <section>
+                <h2>Dados pessoais</h2>
+                <p>
+                    <label for="Nome">Seu nome:</label>
+                    <input type="text" placeholder="Nome" id="Nome"/>
+                </p>
+                
+                <p>
+                    <label for="E-mail">E-mail:</label>
+                    <input type="email" placeholder="E-mail" id="E-mail"/>
+                </p>
+                
+                <p>
+                    <label for="Telefone">Telefone de contato:</label>
+                    <input type="tel" placeholder="(00)0000-0000" id="Telefone"/>
+                </p>
+                
+            
+            </section>
+            <section>
+                <h2>Dados de pesquisa</h2>
+                <p>
+                    <h3>O que voce achou do App?</h3>
+                </p>    
+                <p>   
+                    <input type="radio" id="Pessim" name="App"  />
+                    <label for=Pessim>Pessimo</label>
+                    
+                    <input type="radio" id="Rui" name="App"  />
+                    <label for=Rui>Ruim</label>
+                    
+                    <input type="radio" id="Indiferent" name="App"  />
+                    <label for=Indiferent>Indiferente</label>
+                    
+                    <input type="radio" id="Bo" name="App"  />
+                    <label for=Bo>Bom</label>
+                    
+                    <input type="radio" id="Ótim" name="App"  />
+                    <label for=Ótim>Ótimo</label>
+                </p>
+                
+                <p>
+                    <h3>O que voce achou do Atendimento ao cliente ??</h3>
+                </p>
+                <p>
+                <input type="radio" id="Pessimo" name="Atend"  />
+                <label for=Pessimo>Pessimo</label>
+                
+                <input type="radio" id="Ruim" name="Atend"  />
+                <label for=Ruim>Ruim</label>
+                
+                <input type="radio" id="Indiferente" name="Atend"  />
+                <label for=Indiferente>Indiferente</label>
+                
+                <input type="radio" id="Bom" name="Atend"  />
+                <label for=Bom>Bom</label>
+                
+                <input type="radio" id="Ótimo" name="Atend"  />
+                <label for=Ótimo>Ótimo</label>
+                </p>
+                <p>
+                    <label for="departamento">Departamento de atendimento:</label>
+                    <select>
+                        
+                        <option>Marketing</option>
+                        <option>Financeiro</option>
+                        <option>Educacional</option>
+                        <option>Segurança</option>
+                        <option>Logistica</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="compartilhar"/>
+                    <label for="compartilhar">Voce aceita que compartilhemos seus dados com terceiros?</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar"/>
+
+            
+        </form>
+
+    </body>
+</html>
