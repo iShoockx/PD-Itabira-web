@@ -1,0 +1,32 @@
+html{
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #D9C5B4;
+    margin: auto;
+}
+
+body{
+    color: #59331D;
+}
+p{
+    text-indent: 1rem;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.4em;
+}
+h3{
+    font-size: 1.2em;
+}
+.summary{ 
+    text-align: center;
+}
+.main p{
+    line-height: 1.5;
+}
+abbr{font-variant: small-caps;}
