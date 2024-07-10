@@ -60,25 +60,44 @@ abbr{font-variant: small-caps;}
     margin-right: 1em;
 }
 
-a{
-    color: #67A1A0;
-    
-}
 
 aside ul{
     list-style-type: none; 
 }
+
 aside ul li{
     margin: 1em;
     text-align: center;
 }
+
 .main footer{
     margin: 4%;
 }
+
 .main footer a{
    border: solid 2px; 
    padding: 0.5em;
    display: inline block;
+}
+
+a{
+    color: #67A1A0;   
+}
+a:hover{
+    color: #67a1a080;
+}
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+.design-selection li {
+    border-top: #59331D solid 1px;
+    padding-top: 5px;
+}
+.design-selection li:last-of-type{
+    padding-bottom: 5px;
+    border-bottom: #59331D solid 1px;
 }
 .page-wrapper{
     position: relative;
@@ -90,7 +109,7 @@ aside ul li{
 }
 #design-selection{
     position: absolute;
-    top: 520px;
+    top: 480px;
     left: 62%;
     padding-left: 2%;
     padding-right: 2%;
