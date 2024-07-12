@@ -1,0 +1,156 @@
+/* Principal = #f2f2f2
+    Secundaria = #943715 
+    Destaque = #F28B0C*/
+html{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1,h2,h3{
+    color:#F28B0C ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+}
+body{
+    margin: 0;
+}
+.container-principal{
+    background-color: #F2F2F2;
+    margin: 0 10%;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color: #943715;
+    padding: 3% 2% 3% 2%;
+    margin: 0;
+    text-decoration: none;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #F28B0C;
+}
+.pagina-inicial{
+    display: flex;
+    justify-content: space-between;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    height: 90%;
+    border: #b6441a solid 10px
+}
+img{
+    height: 200px;
+    
+}
+.background-color-cabeçalho{
+    background-color: #b6441a;
+}
+.educaçao-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.educaçao{
+    margin-top: 10%;
+    margin-right: 8%;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.boxes{
+    padding-left: 2%;
+    border: #b6441a solid 1px;
+    height: 100%;
+    width: 70%;
+}
+#ensino{
+    padding: 6% 0;
+}
+.tela-secundario{
+    display: flex;
+    flex-direction: row;
+}
+.certificaçoes-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.certificaçoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin: 0;
+    background-color: #484848;
+    list-style-type: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+.footer ul li{
+    list-style-type: none;
+    align-self: center;
+
+}
+.footer a{
+    color: #F28B0C;
+    margin: 2% 0;
+}
+#link{
+    margin: 0;
+}
+#copy{
+    margin-bottom: 0;
+}
+#lista{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:980px) {
+    .nav-bar{
+        flex-direction: column;
+        height: 40vh;
+    }
+    .pagina-inicial{
+        flex-direction: column;
+    }
+    .educaçao{
+        flex-direction: column;
+        margin: 0;
+    }
+    .boxes{
+        margin-bottom: 4%;
+        width: 40vw;
+    }
+    .tela-secundario{
+        flex-direction: column;
+    }
+    .certificaçoes{
+        flex-direction: column;
+    }
+    
+} 
+    
